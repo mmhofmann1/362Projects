@@ -25,13 +25,13 @@ html {
   align-items: center;
   justify-content: center;
   background-color: #024602;
+  font-family: "Comic Sans MS",cursive,sans-serif;
   padding: 1vw 0 1vw 1em;
 }
 
 h1 {
   font-size: 9vw;
   font-weight: bold;
-  font-family: "Comic Sans MS",cursive,sans-serif;
   color: #AA3C3C;
   white-space: nowrap;
 }
@@ -60,4 +60,13 @@ h1 {
 
 #complete {
   display: none;
+}
+
+#thank {
+font-family: "Comic Sans MS",cursive,sans-serif;
+font-weight: bold;
+color: #024602;
+font-size: 9vw;
+text-align: center;
+margin: 1em 0;
 }
