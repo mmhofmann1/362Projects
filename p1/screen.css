@@ -11,24 +11,23 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 html {
   font-size: 1.125em;
   line-height: 1.222em;
-  padding: 0 1em;
   background-color: #308830;
 }
 
+/*Header styles */
 #logo {
-  max-width: 10%;
+  max-width: 50%;
 }
 
 #head {
   display:flex;
   align-items: center;
-}
-
-#head #flogo {
-  flex-grow: 0;
-  flex-shrink: 0;
+  justify-content: center;
+  background-color: #024602;
+  padding: 0 0 0 1em;
 }
 
 h1 {
+  color: #AA3C3C;
   white-space: nowrap;
 }
