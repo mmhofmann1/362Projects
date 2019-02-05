@@ -11,6 +11,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 html {
   font-size: 1.125em;
   line-height: 1.222em;
+  height: 100%;
   background-color: #308830;
 }
 
@@ -33,4 +34,22 @@ h1 {
   font-family: "Comic Sans MS",cursive,sans-serif;
   color: #AA3C3C;
   white-space: nowrap;
+}
+
+#slogan {
+  padding: 1em;
+}
+
+/*Form styles*/
+#signup {
+  padding: 1em 0 1em 1em;
+}
+
+#elabel {
+  padding-right: 2.45em;
+}
+
+#name, #email {
+  width: 55vw;
+  margin: 1em 0;
 }
