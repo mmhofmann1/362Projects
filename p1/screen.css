@@ -16,7 +16,7 @@ html {
 
 /*Header styles */
 #logo {
-  max-width: 50%;
+  max-width: 80%;
 }
 
 #head {
@@ -24,10 +24,13 @@ html {
   align-items: center;
   justify-content: center;
   background-color: #024602;
-  padding: 0 0 0 1em;
+  padding: 1vw 0 1vw 1em;
 }
 
 h1 {
+  font-size: 9vw;
+  font-weight: bold;
+  font-family: "Comic Sans MS",cursive,sans-serif;
   color: #AA3C3C;
   white-space: nowrap;
 }
