@@ -16,5 +16,19 @@ html {
 }
 
 #logo {
-  max-width: 50%
+  max-width: 10%;
+}
+
+#head {
+  display:flex;
+  align-items: center;
+}
+
+#head #flogo {
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+h1 {
+  white-space: nowrap;
 }
