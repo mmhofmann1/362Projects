@@ -8,11 +8,3 @@ if(n.validity.valid && e.validity.valid){
   incomplete.style.display = "none";
   complete.style.display = "block";
 }});
-//editing invalid or empty input message
-var em=document.getElementById("email");
-em.addEventListener("input", function(event){
-  if(em.validity.typeMismatch){
-    em.setCustomValidity("Please enter a valid email")}
-  else{
-    em.setCustomValidity("");
-  }});
