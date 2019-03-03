@@ -52,6 +52,12 @@ h1 {
 #name, #email {
   width: 55vw;
   margin: 1em 0;
+  border: 0.15em solid;
+  padding: 0.25em;
+}
+
+input:required {
+  box-shadow: none;
 }
 
 #submit {
