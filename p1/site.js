@@ -1,12 +1,14 @@
 'use strict';
 //listener for submit button
+var i=document.getElementById("incomplete");
+var c=document.getElementById("complete");
 var n=document.getElementById("name");
 var e=document.getElementById("email");
 document.getElementById("signup").addEventListener("submit", function(event) {
 if(n.validity.valid && e.validity.valid){
   event.preventDefault();
-  incomplete.style.display = "none";
-  complete.style.display = "block";
+  i.classList.toggle("hidden");
+  c.classList.toggle("visible");
 }});
 //editing invalid or empty input message
 var em=document.getElementById("email");
