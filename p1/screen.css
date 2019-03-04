@@ -65,6 +65,14 @@ input:required {
 }
 
 .complete {
+  display: none;
+}
+
+.hidden {
+  display: none;
+}
+
+.visible {
   display: block;
 }
 
